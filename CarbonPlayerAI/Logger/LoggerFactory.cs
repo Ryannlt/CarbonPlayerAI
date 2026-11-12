@@ -1,0 +1,10 @@
+namespace CarbonPlayerAI
+{
+    public static class LoggerFactory
+    {
+        public static ILogger CreateLogger()
+        {
+            return new ConsoleLogger();
+        }
+    }
+}
